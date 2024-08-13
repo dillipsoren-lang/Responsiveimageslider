@@ -1,0 +1,67 @@
+<!doctype html>
+<style>
+	@keyframes slider{
+             0%{
+                    left: 0;
+            }
+            10% {
+                    left: 0;
+             }
+             20%{
+                    left: -100%;
+             }
+             30%{
+                    left: -100%;
+              }
+              40%{
+                     left: -200%;
+              }
+              50%{
+                     left: -200%;
+              }
+              60%{
+                       left: -300%;
+               }
+               70%{
+                        left: -300%;
+                }
+                80%{
+                        left: -400%;
+                }
+                90%{
+                        left: -400%;
+                }
+                100%{
+                         left: 0;
+               }
+        }
+        #slider{
+        overflow: hidden;
+        }
+        #slider figure img{
+                    float: left;
+                    width: 20%;
+          }
+          #slider figure{
+                      position: relative;
+                      width: 500%;
+                      animation: slider 25s infinite;
+                      margin: 0;
+                      left: 0;
+            }
+	</style>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+<div id="slider">
+	<figure >
+	<img src="https://res.cloudinary.com/de8ppvwwq/image/upload/v1723523080/20240813_094554_aemc9r.jpg" alt="" />
+	<img src="https://res.cloudinary.com/de8ppvwwq/image/upload/v1723523080/20240813_094422_azpnyo.jpg" alt="" />
+    <img src="https://res.cloudinary.com/de8ppvwwq/image/upload/v1723523079/20240813_094719_sx4foa.jpg" alt="" />
+<img src="https://res.cloudinary.com/de8ppvwwq/image/upload/v1723523080/20240813_094459_lcszvz.jpg" alt="" />
+	<img src="https://res.cloudinary.com/de8ppvwwq/image/upload/v1723523079/20240813_094641_uu3umg.jpg" alt="" />
+</figure>
+</div>
+
+</!doctype>
